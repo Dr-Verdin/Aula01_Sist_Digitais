@@ -1,0 +1,49 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/19.1
+Ecookie
+Z0 w1724787221
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/15697249/Desktop/modelsim
+Z4 8C:/Users/15697249/Desktop/aulaumquatro/cookie.vhd
+Z5 FC:/Users/15697249/Desktop/aulaumquatro/cookie.vhd
+l0
+L4
+V?UWQ:B?42]zITYMG><I4_3
+!s100 34jmoOK64G;=l7[YJVRcl2
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1724788506
+!i10b 1
+Z8 !s108 1724788506.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/15697249/Desktop/aulaumquatro/cookie.vhd|
+Z10 !s107 C:/Users/15697249/Desktop/aulaumquatro/cookie.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aaulaumquatro
+R1
+R2
+DEx4 work 6 cookie 0 22 ?UWQ:B?42]zITYMG><I4_3
+l10
+L9
+V[=[W]5P<=EV`XT76>XgW^0
+!s100 n77PZV;_m4Y5Ghi5jS6<J3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

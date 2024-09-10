@@ -1,0 +1,69 @@
+# Compile of aulaumdois.vhd was successful.
+vsim -gui work.aulaumdois
+# vsim -gui work.aulaumdois 
+# Start time: 16:29:21 on Aug 20,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.aulaumdois(structural)
+add wave -position insertpoint  \
+sim:/aulaumdois/Clk
+wave create -driver freeze -pattern clock -initialvalue 1 -period 100ps -dutycycle 10 -starttime 0ps -endtime 1000ps sim:/aulaumdois/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+force -freeze Edit:/aulaumdois/Clk 1 0
+# ** Error (suppressible): (vsim-4008) Object 'Edit:/aulaumdois/Clk' not found.
+# 
+force -freeze Edit:/aulaumdois/Clk 1 0, 0 {50 ps} -r 100
+# ** Error (suppressible): (vsim-4008) Object 'Edit:/aulaumdois/Clk' not found.
+# 
+run
+run
+restart
+add wave -position insertpoint  \
+sim:/aulaumdois/Clk \
+sim:/aulaumdois/D \
+sim:/aulaumdois/Q \
+sim:/aulaumdois/R_g \
+sim:/aulaumdois/S_g \
+sim:/aulaumdois/Qa \
+sim:/aulaumdois/Qb
+noforce sim:/aulaumdois/Clk
+force -freeze sim:/aulaumdois/Clk 1 0, 0 {50 ps} -r 100
+run
+run
+run
+run
+force -freeze sim:/aulaumdois/D 1 0
+force -freeze sim:/aulaumdois/D 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/aulaumdois/D 0 0
+run
+run
+force -freeze sim:/aulaumdois/D 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/aulaumdois/D 1 0
+run
+run
+run
+run
+run
+# End time: 16:43:13 on Aug 20,2024, Elapsed time: 0:13:52
+# Errors: 2, Warnings: 0

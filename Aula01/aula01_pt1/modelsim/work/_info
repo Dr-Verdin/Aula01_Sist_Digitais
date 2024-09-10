@@ -1,0 +1,49 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/19.1
+Eaulaum
+Z0 w1724178039
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/15697249/Desktop/Nova pasta
+Z4 8C:/Users/15697249/Desktop/aulaum/aulaum.vhd
+Z5 FC:/Users/15697249/Desktop/aulaum/aulaum.vhd
+l0
+L4
+VdP87lb:gnN^][@3`T<e6X0
+!s100 nDF`KSS8HPSF0Zf6CFOjT1
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1724178301
+!i10b 1
+Z8 !s108 1724178301.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/15697249/Desktop/aulaum/aulaum.vhd|
+Z10 !s107 C:/Users/15697249/Desktop/aulaum/aulaum.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Astructural
+R1
+R2
+DEx4 work 6 aulaum 0 22 dP87lb:gnN^][@3`T<e6X0
+l13
+L9
+V_oo@5ZFc]U6Ll2;_j`5i20
+!s100 GIAlODcHOoJgJVSAe>eVU0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12

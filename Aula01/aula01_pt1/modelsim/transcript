@@ -1,0 +1,89 @@
+# Compile of aulaum.vhd was successful.
+vsim -gui work.aulaum
+# vsim -gui work.aulaum 
+# Start time: 15:25:30 on Aug 20,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.aulaum(structural)
+add wave -position insertpoint sim:/aulaum/*
+wave create -driver freeze -pattern clock -initialvalue U -period 10ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/aulaum/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern random -initialvalue U -period 5ps -random_type Normal -seed 7 -starttime 0ps -endtime 1000ps sim:/aulaum/R
+wave create -driver freeze -pattern random -initialvalue U -period 5ps -random_type Normal -seed 7 -starttime 0ps -endtime 1000ps sim:/aulaum/S
+run -all
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 35 ps.
+add wave -position end  sim:/aulaum/Q
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 35 ps.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 35 ps.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 35 ps.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 35 ps.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 35 ps.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 35 ps.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 35 ps.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 35 ps.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 35 ps.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 35 ps.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 35 ps.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 35 ps.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 35 ps.
+run -all
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 35 ps.
+wave modify -driver freeze -pattern random -initialvalue U -period 5ps -random_type Normal -seed 10 -starttime 0ps -endtime 1000ps Edit:/aulaum/R
+wave modify -driver freeze -pattern random -initialvalue U -period 5ps -random_type Normal -seed 10 -starttime 0ps -endtime 1000ps Edit:/aulaum/S
+wave modify -driver freeze -pattern random -initialvalue U -period 5ps -random_type Normal -seed 7 -starttime 0ps -endtime 1000ps Edit:/aulaum/S
+run -all
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 35 ps.
+restart
+restart
+add wave -position insertpoint  \
+sim:/aulaum/Clk \
+sim:/aulaum/R \
+sim:/aulaum/S \
+sim:/aulaum/Q \
+sim:/aulaum/R_g \
+sim:/aulaum/S_g \
+sim:/aulaum/Qa \
+sim:/aulaum/Qb
+force -freeze sim:/aulaum/Clk 1 0
+force -freeze sim:/aulaum/R 0 0
+force -freeze sim:/aulaum/S 1 0
+run
+run
+run
+run
+force -freeze sim:/aulaum/Clk 1 0
+run
+force -freeze sim:/aulaum/Clk 1 0, 0 {500 ps} -r 1000
+run
+run
+force -freeze sim:/aulaum/R 1 0
+force -freeze sim:/aulaum/S 0 0
+run
+run
+noforce sim:/aulaum/Clk
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 15:39:37 on Aug 20,2024, Elapsed time: 0:14:07
+# Errors: 16, Warnings: 0

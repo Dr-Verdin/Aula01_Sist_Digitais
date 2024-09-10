@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/19.1
+Eaulaumtres
+Z0 w1724781328
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/15697249/Desktop/aulaumpartetres
+Z4 8C:/Users/15697249/Desktop/aulaumtres/aulaumtres.vhd
+Z5 FC:/Users/15697249/Desktop/aulaumtres/aulaumtres.vhd
+l0
+L25
+VFfOdIm1<h^_ffi7XXWod92
+!s100 OzlIVVo1EL5:WZf2ngRC<2
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1724781410
+!i10b 1
+Z8 !s108 1724781410.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/15697249/Desktop/aulaumtres/aulaumtres.vhd|
+Z10 !s107 C:/Users/15697249/Desktop/aulaumtres/aulaumtres.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abdf_type
+R1
+R2
+DEx4 work 10 aulaumtres 0 22 FfOdIm1<h^_ffi7XXWod92
+l44
+L35
+VF>nXaYHEc;JCHPE8[2Ioc2
+!s100 eiC`kMkL]T_92gn:8lU5X0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eaulaumtresff
+Z13 w1724781078
+R1
+R2
+R3
+Z14 8C:/Users/15697249/Desktop/aulaumtres/aulaumtresff.vhd
+Z15 FC:/Users/15697249/Desktop/aulaumtres/aulaumtresff.vhd
+l0
+L25
+VdH>h<R2NR031XV5:`3kZi0
+!s100 Wg[ClIoK@D2O7dg>Q2fMh1
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/15697249/Desktop/aulaumtres/aulaumtresff.vhd|
+Z17 !s107 C:/Users/15697249/Desktop/aulaumtres/aulaumtresff.vhd|
+!i113 1
+R11
+R12
+Abdf_type
+R1
+R2
+DEx4 work 12 aulaumtresff 0 22 dH>h<R2NR031XV5:`3kZi0
+l49
+L35
+VBTLhn2<X1WG8mCdG>ZAHT0
+!s100 <2aTTWF[E4[hjRl<Mo53i0
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12

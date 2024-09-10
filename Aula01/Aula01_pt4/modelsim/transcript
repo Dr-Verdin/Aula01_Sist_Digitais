@@ -1,0 +1,32 @@
+# Compile of cookie.vhd was successful.
+vsim -gui work.cookie
+# vsim -gui work.cookie 
+# Start time: 16:55:15 on Aug 27,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cookie(aulaumquatro)
+add wave -position insertpoint  \
+sim:/cookie/D \
+sim:/cookie/Clk \
+sim:/cookie/Qa \
+sim:/cookie/Qb \
+sim:/cookie/Qc
+force -freeze sim:/cookie/Clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/cookie/D 1 0
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/cookie/D 0 0
+run
+run
+run
+run
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/15697249/Desktop/modelsim/wave.do
+# End time: 16:59:19 on Aug 27,2024, Elapsed time: 0:04:04
+# Errors: 0, Warnings: 0
